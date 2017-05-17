@@ -26,6 +26,8 @@ background: #ff6600;
 border: 0;
 cursor: pointer;
 outline: none;
+		position: relative;
+		z-index: 999;
 }
 .paypal_btn:hover{ background: #e05c04; }
 	</style>
@@ -58,13 +60,7 @@ outline: none;
 						<h2>DONATE FOR</h2>
 						
 						<h1 class='headingOfChapter'>NOTHING</h1>
-						
-<!--						  <a href="#">DO IT</a>-->
-						 </div>
-				</div>
-			</div>
-		</div>
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="z-index:1000; text-align:center;">
 <input type="hidden" name="cmd" value="_donations">
 <input type="hidden" name="business" value="J2DXEB7ZNXHV2">
 <input type="hidden" name="lc" value="US">
@@ -75,6 +71,12 @@ outline: none;
 
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+<!--						  <a href="#">DO IT</a>-->
+						 </div>
+				</div>
+			</div>
+		</div>
+			
 		
 	</div>
 	<div style="display:none">
